@@ -1,0 +1,93 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Eksterijer i enterijer</title>
+<style type="text/css">
+@font-face {
+    font-family: 'brush_script_mtitalic';
+    src: url('font/brushscript-webfont.eot');
+    src: url('font/brushscript-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/brushscript-webfont.woff2') format('woff2'),
+         url('font/brushscript-webfont.woff') format('woff'),
+         url('font/brushscript-webfont.ttf') format('truetype'),
+         url('font/brushscript-webfont.svg#brush_script_mtitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+</style>
+<link rel="stylesheet" type="text/css" media="screen" href="eksterijer_i_enterijer_1.css"/>
+<link rel="shortcut icon" href="icon/kucica.ico">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script>
+	$(document).ready(function() {
+    var offset=250, // At what pixels show Back to Top Button
+    scrollDuration=300; // Duration of scrolling to top
+        $(window).scroll(function() {
+	    if ($(this).scrollTop() > offset) {
+                $('.top').fadeIn(500); // Time(in Milliseconds) of appearing of the Button when scrolling down.
+                } else {
+		$('.top').fadeOut(500); // Time(in Milliseconds) of disappearing of Button when scrolling up.
+		}
+	});
+
+	// Smooth animation when scrolling
+	$('.top').click(function(event) {
+	event.preventDefault();
+            $('html, body').animate({
+	        scrollTop: 0}, scrollDuration);
+                })
+	});
+</script>
+</head>
+
+<body>
+
+<div id="glavna_prica">
+
+<header>
+<a href="#" onclick="return false" title="Srbija"><div id="srb"><p>SRB</p></div></a>
+<a href="eksterijer_i_enterijer_1_en.html" title="English language"><div id="eng"><p>ENG</p></div></a>
+<a href="#" onclick="return false" title="Page est en construction"><div id="fra"><p>FRA</p></div></a>
+<a href="#" onclick="return false" title="Seite befindet sich im Aufbau"><div id="ger"><p>GER</p></div></a>
+<p>Privredno društvo za projektovanje, inženjering i izgradnju građevinskih objekata Stoing (DOO) <br/>Matični broj: 20768487, PIB: 107175548, Tekući račun: 170 300198530 28 UniCredit banka</p>
+</header>
+
+<div id="kontekst">
+
+<div id="meni"><a href="projektovanje_1.html" title="Projektovanje"><div class="meni_projektovanje"><p>Projektovanje</p></div></a><a href="#" title="Eksterijer i enterijer"><div class="meni_eksterijer_i_enterijer"><p>Eksterijer i enterijer</p></div></a><a href="izgradnja_1.html" onclick="return false" title="Strana je u izradi"><div class="meni_izgradnja"><p>Izgradnja</p></div></a></div>
+<div id="naslov_kataloga"><p>Enterijer dnevnog boravka sa trpezarijom i kuhinjom</p></div>
+<div id="slika_1" title="Izgled 1"></div>
+<div id="slika_2" title="Izgled 2"></div>
+<div id="slika_3" title="Izgled 3"></div>
+<div id="slika_4" title="Izgled 4"></div>
+<div id="numeracija"><div class="trenutna_strana"><p>2-3</p></div><a href="projektovanje_1.html" title="Predhodna strana"><div class="strelica_nazad"><p>1</p></div></a><a href="izgradnja_1.html" onclick="return false" title="Strana je u izradi"><div class="strelica_napred"><p>3</p></div></a></div>
+<div id="kontakt_naslov"><div class="kontakt_naslov_tekst"><p>Kontakt</p></div><a href="#" title="Referenc lista jos uvek nije dostupna" onclick="return false"><div class="pdf_referenc_lista"><p>referenc lista</p></div></a></div>
+</div>
+
+
+<footer>
+<div class="adresa_cuprija"><a href="#" onclick="return false" title="Pregled Google mape jos uvek nije dostupan"><div class="adresa_ikona_cuprija"><div class="dodatak_slovu_c_4"></div><p>Cuprija</p></div></a><a href="#" onclick="return false" title="Pregled Google mape jos uvek nije dostupan"><div class="ulica_cuprija"><p>Milice Cenić 7, 35230 Ćuprija</p></div></a></div>
+<div class="adresa_jagodina"><a href="#" onclick="return false" title="Pregled Google mape jos uvek nije dostupan"><div class="adresa_ikona_jagodina"><p>Jagodina</p></div></a><a href="#" onclick="return false" title="Pregled Google mape jos uvek nije dostupan"><div class="ulica_jagodina"><p>Knjeginje Milice 92, 35000 Jagodina</p></div></a></div>
+<div class="adresa_despotovac"><a href="#" onclick="return false" title="Pregled Google mape jos uvek nije dostupan"><div class="adresa_ikona_despotovac"><p>Despotovac</p></div></a><a href="#" onclick="return false" title="Pregled Google mape jos uvek nije dostupan"><div class="ulica_despotovac"><p>Rudnička 25, 35213 Despotovac</p></div></a></div>
+<div id="telefon_cuprija" title="Fiksni telefon"><p>+381 (0)35 8 476 189</p></div>
+<div id="telefon_jagodina" title="Fiksni telefon"><p>+381 (0)35  241 415</p></div>
+<div id="telefon_despotovac" title="Fiksni telefon"><p>+381 (0)35  611 233</p></div>
+<div id="fax_cuprija" title="Faks"><p>+381 (0)35 8 473 174</p></div>
+<div id="fax_jagodina" title="Faks"><p></p></div>
+<div id="fax_despotovac" title="Faks"><p></p></div>
+<div class="email"><a href="#" onclick="return false" title="Korisnicki formular je u izradi"><div class="email_ikona"></div></a><a href="#" onclick="return false" title="Korisnicki formular je u izradi"><p>stoing2011@gmail.com</p></a></div>
+<div id="puja" title="Zoran Stojanović Dipl, inž. građ."></div>
+<div id="vek" title="Vesna Stojanović Dipl, inž. građ."></div>
+<div id="spira" title="Jelena Stojanović, Mast. inž. arh."></div>
+<div id="vuk" title="Vuk Stojanović, Menadžer"></div>
+<div class="facebook_i_kucica"><a href="https://www.facebook.com/Stoing2011"  title="Facebook"><div class="facebook_ikona"></div></a><a href="index.html" title="Početna strana"><div class="kucica"></div></a><div class="pravo"><P>Autorska prava &copy; Stoing, 2016. Sva prava su zadržana.</p></div><div class="stoing"><a href="index.html" title="Početna strana"><p>www.stoing.rs</p></a></div></div>
+<a href="#"  title="Povratak na vrh" class="top"><img src="body/povratno_dugme_2.png" width="78" height="85"></a>
+</footer>
+
+</div>
+
+</body>
+</html>
+

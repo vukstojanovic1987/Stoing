@@ -1,0 +1,89 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="sr">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Naslovna strana</title>
+<style type="text/css">
+@font-face {
+    font-family: 'brush_script_mtitalic';
+    src: url('font/brushscript-webfont.eot');
+    src: url('font/brushscript-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/brushscript-webfont.woff2') format('woff2'),
+         url('font/brushscript-webfont.woff') format('woff'),
+         url('font/brushscript-webfont.ttf') format('truetype'),
+         url('font/brushscript-webfont.svg#brush_script_mtitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+</style>
+<link rel="stylesheet" type="text/css" media="screen" href="stil.css"/>
+<link rel="shortcut icon" href="icon/kucica.ico">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script>
+	$(document).ready(function() {
+    var offset=250, // At what pixels show Back to Top Button
+    scrollDuration=300; // Duration of scrolling to top
+        $(window).scroll(function() {
+	    if ($(this).scrollTop() > offset) {
+                $('.top').fadeIn(500); // Time(in Milliseconds) of appearing of the Button when scrolling down.
+                } else {
+		$('.top').fadeOut(500); // Time(in Milliseconds) of disappearing of Button when scrolling up.
+		}
+	});
+
+	// Smooth animation when scrolling
+	$('.top').click(function(event) {
+	event.preventDefault();
+            $('html, body').animate({
+	        scrollTop: 0}, scrollDuration);
+                })
+	});
+</script>
+</head>
+
+<body>
+
+<div id="glavna_prica">
+
+<header>
+<a href="index.html" title="Srpski jezik"><div id="srb"><p>SRB</p></div></a>
+<a href="index_en.html" title="English lanaguage"><div id="eng"><p>ENG</p></div></a>
+<a href="#" onclick="return false" title="Page est en construction"><div id="fra"><p>FRA</p></div></a>
+<a href="#" onclick="return false" title="Seite befindet sich im Aufbau"><div id="ger"><p>GER</p></div></a>
+<p>Privredno društvo za projektovanje, inženjering i izgradnju građevinskih objekata Stoing (DOO) <br/>Matični broj: 20768487, PIB: 107175548, Tekući račun: 170 300198530 28 UniCredit banka</p>
+</header>
+
+<div id="kontekst">
+<div id="zelite"><div class="dodatak_slovu_c_0"></div><div class="dodatak_slovu_z_0"></div><div class="dodatak_slovu_s_0"></div><p>Ako zelite kucu vasih snova,</p></div>
+<a href="projektovanje_1.html" title="Projektovanje"><div id="isprojektovati" ><div class="isprojektovati_tekst"><div class="dodatak_slovu_c_1"></div><p>mi cemo je <span class="podvuceno">isprojektovati</span> za vas,</p></div></div></a>
+<a href="eksterijer_i_enterijer_1.html" title="Eksterijer i enterijer"><div id="eksterijer_i_enterijer"><div class="eksterijer_i_enterijer_tekst"><div class="dodatak_slovu_c_2"></div><p>uradicemo <span class="podvuceno">eksterijer i enterijer</span> za vas,</p></div></div></a>
+<a href="izgradnja_1.html" onclick="return false" title="Strana je u izradi"><div id="izgradnja"><div class="izgraditi_tekst"><div class="dodatak_slovu_c_3"></div><p>a ako treba, mi cemo je i <span class="podvuceno">izgraditi</span> za vas.</p></div></div></a>
+<div id="kontakt_naslov"><p>Kontakt</p></div>
+ 
+</div>
+
+<footer>
+<div class="adresa_cuprija"><a href="#" onclick="return false" title="Pregled Google mape jos uvek nije dostupan"><div class="adresa_ikona_cuprija"><div class="dodatak_slovu_c_4"></div><p>Cuprija</p></div></a><a href="#" onclick="return false" title="Pregled Google mape jos uvek nije dostupan"><div class="ulica_cuprija"><p>Milice Cenić 7, 35230 Ćuprija</p></div></a></div>
+<div class="adresa_jagodina"><a href="#" onclick="return false" title="Pregled Google mape jos uvek nije dostupan"><div class="adresa_ikona_jagodina"><p>Jagodina</p></div></a><a href="#" onclick="return false" title="Pregled Google mape jos uvek nije dostupan"><div class="ulica_jagodina"><p>Knjeginje Milice 92, 35000 Jagodina</p></div></a></div>
+<div class="adresa_despotovac"><a href="#" onclick="return false" title="Pregled Google mape jos uvek nije dostupan"><div class="adresa_ikona_despotovac"><p>Despotovac</p></div></a><a href="#" onclick="return false" title="Pregled Google mape jos uvek nije dostupan"><div class="ulica_despotovac"><p>Rudnička 25, 35213 Despotovac</p></div></a></div>
+<div id="telefon_cuprija" title="Fiksni telefon"><p>+381 (0)35 8 476 189</p></div>
+<div id="telefon_jagodina" title="Fiksni telefon"><p>+381 (0)35  241 415</p></div>
+<div id="telefon_despotovac" title="Fiksni telefon"><p>+381 (0)35  611 233</p></div>
+<div id="fax_cuprija" title="Faks"><p>+381 (0)35 8 473 174</p></div>
+<div id="fax_jagodina" title="Faks"><p></p></div>
+<div id="fax_despotovac" title="Faks"><p></p></div>
+<div class="email"><a href="mailto:stoing2011@gmail.com?subject=Call memailto:stoing2011@gmail.com.com" onclick="return false" target="_blank" ; title="Korisnički formular je u izradi"><div class="email_ikona"></div></a><a href="#stoing2011@gmail.com" onclick="return false" title="Korisnički formular je u izradi"><p>stoing2011@gmail.com</p></a></div>
+<div id="puja" title="Zoran Stojanović, Dipl. inž. građ."></div>
+<div id="vek" title="Vesna Stojanović, Dipl. inž. građ."></div>
+<div id="spira" title="Jelena Stojanović, Mast. inž. arh."></div>
+<div id="vuk" title="Vuk Stojanović, Menadžer"></div>
+<div class="facebook_i_kucica"><a href="https://www.facebook.com/Stoing2011" title="Facebook"><div class="facebook_ikona"></div></a><a href="#" title="Početna strana"><div class="kucica"></div></a><div class="pravo"><P>Autorska prava &copy; Stoing, 2016. Sva prava su zadržana.</p></div><div class="stoing"><a href="#" title="Početna strana"><p>www.stoing.rs</p></a></div></div>
+<a href="#"  title="Povratak na vrh" class="top"><img src="body/povratno_dugme_2.png" width="78" height="85"></a>
+</footer>
+
+</div>
+
+</body>
+</html>
+
